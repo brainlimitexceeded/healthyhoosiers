@@ -1,0 +1,146 @@
+.create_container{
+	width: 107%;
+	min-height: 100vh;
+	min-width:170vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+	width: 107%;
+	height: 70px;
+	background-color: #1976d2;;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.black_btn_main {
+	border: black;
+	outline: black;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+	color: black;
+}
+
+.black_btn_sub {
+	border: black;
+	outline: black;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+	color: black;
+}
+
+.container {
+	background-color: #EAEAEA;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	width: 450px;
+	position: absolute;
+	right: 100px;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+
+.create_form_container{
+	width: 900px;
+	height: 600px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.form_container{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+    background-color:   #1976d2;
+    padding: 4%;
+}
+
+.form_container h1 {
+	font-size: 30px;
+    height: 80;
+    border-radius: 10px;
+    padding: 4%;
+    color: black;
+    background-color:white;
+    margin-bottom: 10%;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 10px 0;
+	font-size: 14px;
+    color: black;
+}
+
+label {
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+  }
+
+  h3{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 10px 0;
+    background-color: #d9d9d9;
+}
+
+h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.select_dropdown {
+	background-color: white;
+	height: 30px;
+	width: 150px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.checkbox_style{
+    color: white;
+}

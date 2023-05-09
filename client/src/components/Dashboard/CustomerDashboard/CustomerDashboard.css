@@ -1,0 +1,103 @@
+
+.dashboard-container{
+
+  }
+  .react-calendar {
+	/* padding-left: 200px; */
+	width: 1000px;
+  }
+  
+ .react-calendar__navigation button{
+	color: black;
+ }
+ .react-calendar button{
+	color: black;
+ }
+  /* .react-calendar{
+
+  } */
+  /* Calendar container */
+
+.main{
+	flex: 1;
+  }
+
+.calendar {
+	margin-bottom: 10px;
+  }
+  
+  /* Calendar header */
+  .calendar-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  /* Calendar month and year */
+  .calendar-month,
+  .calendar-year {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  /* Calendar weekdays */
+  .calendar-weekdays {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+  }
+  
+  /* Calendar weekday */
+  .calendar-weekday {
+	font-size: 16px;
+	font-weight: bold;
+  }
+  
+  /* Calendar days */
+  .calendar-days {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  /* Calendar day */
+  .calendar-day {
+	width: 14.28%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  /* Calendar day - disabled */
+  .calendar-day-disabled {
+	color: #ccc;
+  }
+  
+  /* Calendar day - selected */
+  .calendar-day-selected {
+	background-color: #ccc;
+  }
+  
+  /* Calendar day - completed */
+  .calendar-day-completed {
+	background-color: #66bb6a;
+	color: #fff;
+  }
+
+
+  .calendar_btn {
+    border: black;
+    outline: black;
+    padding: 12px 0;
+    background-color: blue;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: black;
+  }
+  
